@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",
-    "build": "payload build",
+    "build": "payload build --output public",
     "serve": "NODE_ENV=production node server.js"
   },
   "dependencies": {
